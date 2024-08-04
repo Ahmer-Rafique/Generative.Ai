@@ -71,3 +71,25 @@ weather:str="SunShine";
 print(weather);
 #print(sunshine);# NameError: name 'sunshine' is not defined 
 # Q13
+score:int=100;
+print(score);
+score:int=200;
+print(score);
+# Q14
+City:str="Bahawalpur";
+print(City)
+# Q15
+text:str="python programming";
+print(text.title());
+# Q16
+text2:str="I have Leptop and MOBILE";
+print(text2.lower());
+# Q17
+text3:str="i am Pakistani";
+print(text3.upper());
+# Q18
+Temperature:int=25;
+print(f"\"The current temperature is {Temperature} digrees\"")
+ # Q19 
+Poem:str="""The sun sets in the west,\nPainting the sky with hues,\nOf orange, pink, and purple,\nA beautiful evening muse."""
+print(Poem);
