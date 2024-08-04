@@ -1,29 +1,29 @@
-# answer the question 1
+# Q1
 Message:str="this is our python code in generative Ai";
 print(Message);
-# Answer the Question 2
+# Q2
 Work:str="this is leptop";
 print(Work);
-#Change the value of variable
+# change value of variable
 Work:str="this is my phone";
 print(Work)
-#Answer the question 3 
+# Q3 
 Personal_Name:str="Ahmar Ali ";
 messege:str=(f"\"Hello {Personal_Name} , would you like to learn some python today?\"");
 print(messege);
-#Answer the question 4
+# Q4
 Name:str="My name is Ahmar Ali";
 print("Upper Case = ", Name.upper() );
 print("Lower case = ", Name.lower());
 print("Titel Case = " , Name.title());
-#Answer the Question 5
+# Q5
 Famous_Quote:str="Once Allama iqbal said  , \"I do not believe in taking the right decision, I take a decision and make it right\"";
 print(Famous_Quote);
-#Answer the Question 6
+# Q6
 Person:str="Hazar Ali(R.S)";
 messages:str=(f"\" Once {Person} said , This entire world is not worth a single tear.\"")
 print(messages);
-#Answer the Question 7
+# Q7
 # Define a variable to represent a person's name with whitespace characters
 name:str = "\t\n John Doe \n\t"
 
@@ -42,12 +42,12 @@ print(repr(name.rstrip()))
 # Print the name using strip() to remove both leading and trailing whitespace
 print("\nName with both leading and trailing whitespace removed using strip():")
 print(repr(name.strip()))
-# Answer the question 8
+# Q8
 x:int=5;
 y:int=10;
 z:int=15;
 print(f"{x}+{y}+{z}={x+y+z}")
-# Answer the Question 9
+# Q9
 a:int=5;
 b:int=10;
 print("Before Swap");
@@ -57,8 +57,17 @@ a,b=b,a
 print("\nAfter Swap");
 print(f"a = {a}");
 print(f"b = {b}");
-# Answer the question 10
+# Q10
 Favourite_color:str="Black";
 print(Favourite_color);
 New_Favourite_color:str=Favourite_color;
 print(New_Favourite_color);
+# Q11
+pet_Name:str="Buddy";
+pet_Name:str="Dog";
+print(pet_Name);
+# Q12
+weather:str="SunShine";
+print(weather);
+#print(sunshine);# NameError: name 'sunshine' is not defined 
+# Q13
