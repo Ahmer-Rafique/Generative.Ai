@@ -26,8 +26,8 @@ def calculator():
 
         if choice in ['1', '2', '3', '4']:
             try:
-                num1 = float(input("Enter first number: "))
-                num2 = float(input("Enter second number: "))
+                num1 = int(input("Enter first number: "))
+                num2 = int(input("Enter second number: "))
             except ValueError:
                 print("Invalid input. Please enter a number.")
                 continue
