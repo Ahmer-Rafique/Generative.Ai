@@ -1,5 +1,4 @@
-# Define functions for calculator operations
-
+# Calculator With Function            
 def add(x, y):
     return x + y
 
@@ -23,6 +22,7 @@ def modulus(x, y):
 
 # Function to display the menu and get user's choice
 def get_operation():
+    print("WellCome to the Calculator")
     print("Select operation:")
     print("1. Add")
     print("2. Subtract")
